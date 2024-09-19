@@ -1,0 +1,36 @@
+/* Add a background image to the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 50px;
+    background-image: url('/static/background.jpg'); /* Update the path to your background image */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Center the container */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgba(41, 140, 207, 0.8), rgba(255, 255, 255, 0.8)); /* Gradient background */
+    text-align: center; /* Center the text inside the container */
+}
+
+/* Style the result section */
+#result {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+/* Remove bullet points from the stats list */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+.stats-list {
+    list-style-type: none;
+    padding: 0;
+}
